@@ -1,4 +1,4 @@
-async function Get(url: string) {
+async function Get(url: string): Promise<any> {
     const request: Response = await fetch(url);
 
     if (request.ok) {

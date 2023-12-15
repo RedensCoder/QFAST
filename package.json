@@ -2,9 +2,18 @@
   "name": "fast",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "prepublish": "tsc",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RedensCoder/FAST"
+  },
+  "bugs": {
+    "url": "https://github.com/RedensCoder/FAST/issues"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": ""
   },
   "keywords": [],
   "author": "",
