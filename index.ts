@@ -1,4 +1,5 @@
 type qfastHeaders = {
+    "Content-Type": string,
     Authorization: string
 }
 

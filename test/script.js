@@ -1,5 +1,5 @@
 const qfast = require("qfast")
 
 qfast.get("https://jsonplaceholder.typicode.com/posts/1", {
-    Authorization: "bearer token"
+    "Content-Type": "application/json"
 }).then(res => console.log(res))
