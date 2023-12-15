@@ -1,12 +1,17 @@
-async function Get(url: string): Promise<any> {
-    const request: Response = await fetch(url);
-
-    if (request.ok) {
-        return request.json();
-    }
-
-    return console.error(request);
-    
+type qfastResponse = {
+    data: object
 }
 
-module.exports = Get
+class qfast {
+    static async get(url: string): Promise<qfastResponse> {
+        const request: Response = await fetch(url);
+
+        const response: qfastResponse = {
+            data: await request.json()
+        }
+
+        return response;
+    }
+}
+
+module.exports = qfast

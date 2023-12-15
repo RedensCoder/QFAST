@@ -1,1 +1,1 @@
-# FAST - HTTP client for the browser and node.js
+# QFAST - HTTP client for the browser and node.js

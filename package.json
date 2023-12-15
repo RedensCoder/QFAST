@@ -1,9 +1,9 @@
 {
-  "name": "fast",
+  "name": "qfast",
   "version": "1.0.0",
   "description": "",
   "main": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "type": "commonjs",
   "prepublish": "tsc",
   "repository": {
     "type": "git",
